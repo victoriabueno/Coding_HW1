@@ -4,3 +4,13 @@
 .font2{
     font-family: 'Knewave', cursive;
 }
+.block_element{
+    width: 1920px;
+    height: 103px;
+    mix-blend-mode: multiply;
+    background-color: #ababab;
+}
+.inline-block{
+    padding: 35px;
+    display: inline-block;
+}
