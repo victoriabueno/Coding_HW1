@@ -1,16 +1,113 @@
-.font1{
-    font-family: 'Spartan', sans-serif;
+*{
+    box-sizing: border-box;
+    margin: 0;
 }
-.font2{
-    font-family: 'Knewave', cursive;
-}
-.block_element{
-    width: 1920px;
-    height: 103px;
-    mix-blend-mode: multiply;
-    background-color: #ababab;
+body{
+    background-color: black;
 }
 .inline-block{
-    padding: 35px;
     display: inline-block;
+}
+li{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    background-color: black;
+    height: 103px;
+    width: 100%;
+    mix-blend-mode: multiply;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+    background-color: black, .9;
+    overflow-x: hidden;
+}
+.logo{
+    cursor: pointer;
+    height: 90px;
+    width: 95px;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.menu li:hover{
+    color:#fcae17;
+}
+button{
+    padding: 8px 16px;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff
+}
+button:hover{
+    color:#ffffff;
+}
+#signup{
+    border: #f8ba42 solid 5px;
+}
+#login{
+    border: #dc549c solid 5px;
+}
+#signup:hover{
+    background-color: #f8ba42;
+}
+#login:hover{
+    background-color: #dc549c;
+}
+.hero-image{
+    background-image: url(../images/banner1.png);
+    height: 930px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    text-align: left;
+    position: absolute;
+    top: 264px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-family: 'Knewave', cursive;
+    font-size: 120px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: .98;
+    letter-spacing: 6px;
+    color: #fcae17
+}
+p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.fonts{
+    font-family: 'Spartan', sans-serif;
+    font-family: 'Knewave', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
