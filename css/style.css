@@ -61,6 +61,12 @@ h1{
 .button2:hover{
     background: #dc549c;
 }
+.button3{
+    border: solid #f8ba42 5px;
+}
+.button3:hover{
+    background: #f8ba42;
+}
 .hero{
     
     display: flex; 
@@ -82,14 +88,14 @@ h1{
 } */
 .hero-text{
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     padding: 40px 85px;
 }
 .hero-text h2{
     font-family: 'Knewave', cursive;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -106,4 +112,13 @@ h1{
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
+}
+.hero button{
+    font-family: 'Spartan', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 70px 27px;
+    margin: 16px;
+    background: transparent;
 }
