@@ -67,6 +67,7 @@ h1{
     background-image: url("../images/movementfinal\ 1.png");
     background-position: right;
     background-repeat: no-repeat;
+    background-color: black;
     width: 100%;
     height: 750px;
 }
@@ -80,5 +81,29 @@ h1{
     background-position: right;
 } */
 .hero-text{
-
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px 85px;
+}
+.hero-text h2{
+    font-family: 'Knewave', cursive;
+    font-size: 120px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: .98;
+    letter-spacing: 6px;
+    color: #fcae17
+}
+.hero-text p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
 }
